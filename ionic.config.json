@@ -1,0 +1,7 @@
+{
+  "name": "sheguard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
