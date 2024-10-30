@@ -23,4 +23,13 @@
 
   ion-button {
     margin-top: 200px;
+    width: 400px;
+    margin-left: 14px;
   }
+
+  .swiper-container {
+    --swiper-pagination-bullet-inactive-color: rgba(167, 11, 11, 0.5); /* Inactive red */
+    --swiper-pagination-bullet-active-color: rgba(167, 11, 11, 1); /* Active red */
+  }
+  
+  

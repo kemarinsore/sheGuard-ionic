@@ -18,6 +18,26 @@ const routes: Routes = [
   {
     path: 'dashboard',
     loadChildren: () => import('./pages/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'patrol',
+    loadChildren: () => import('./pages/patrol/patrol.module').then( m => m.PatrolPageModule)
+  },
+  {
+    path: 'panic',
+    loadChildren: () => import('./pages/panic/panic.module').then( m => m.PanicPageModule)
+  },
+  {
+    path: 'notif',
+    loadChildren: () => import('./pages/notif/notif.module').then( m => m.NotifPageModule)
+  },
+  {
+    path: 'profil',
+    loadChildren: () => import('./pages/profil/profil.module').then( m => m.ProfilPageModule)
+  },
+  {
+    path: 'warning',
+    loadChildren: () => import('./pages/warning/warning.module').then( m => m.WarningPageModule)
   }
 ];
 @NgModule({
